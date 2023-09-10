@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "mzrdev"
+  },
+  "bugs": {
+    "url": "https://github.com/MZRCode/croxydb-stats/issues"
+  },
+  "deprecated": false,
+  "description": "Croxydb modülü için geliştirilen stats modülü",
+  "homepage": "https://github.com/MZRCode/croxydb-stats#readme",
+  "keywords": [
+    "croxydb",
+    "croxydbstats",
+    "croxyistatistik"
+  ],
+  "license": "MIT",
+  "main": "./src/index.js",
+  "name": "croxydb-stats",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MZRCode/croxydb-stats.git"
+  },
+  "version": "0.0.3",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
