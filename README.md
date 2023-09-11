@@ -8,6 +8,7 @@
 const dbsts = require("croxydb-stats")
 
 dbsts.size // Reflects the size of the database.
+dbsts.version // Reflects the version of the database.
 ```
 If you have any questions, you can join my [Discord server](https://discord.gg/mzrdev) or join the [Croxydb Support](https://discord.gg/gn3qPdpJgf) server.
 
@@ -18,6 +19,7 @@ If you have any questions, you can join my [Discord server](https://discord.gg/m
 const dbsts = require("croxydb-stats")
 
 dbsts.size // Database'in boyutunu yansıtır.
+dbsts.version // Database'in versiyonunu yansıtır.
 ```
 Herhangi bir sorunuz varsa, [Discord sunucuma](https://discord.gg/mzrdev) veya [Croxydb Destek](https://discord.gg/gn3qPdpJgf) sunucusuna katıla bilirsiniz.
 
@@ -26,4 +28,8 @@ Herhangi bir sorunuz varsa, [Discord sunucuma](https://discord.gg/mzrdev) veya [
 ## Size
 ```js
 console.log(dbsts.size); // 1 Kb
+```
+## Version
+```js
+console.log(dbsts.version); // 0.0.12
 ```
