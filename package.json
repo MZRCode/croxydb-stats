@@ -14,14 +14,16 @@
     "croxyistatistik"
   ],
   "license": "MIT",
-  "main": "./src/index.js",
+  "main": "./file/index.js",
+  "types": "./typings/index.d.ts",
   "name": "croxydb-stats",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MZRCode/croxydb-stats.git"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
+    "croxydb": "^0.0.12",
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
   }
